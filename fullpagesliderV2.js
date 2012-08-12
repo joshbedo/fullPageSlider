@@ -67,7 +67,6 @@
 					slidePanel(currPanel, 'right', false);
 					interval = setInterval(function() {
 						currPanel++;
-						console.log(interval);
 						// check if the new panel value is too big
 						if ( currPanel >= panels.length ) currPanel = 0;
 						slidePanel(currPanel, 'left', false);
@@ -83,7 +82,6 @@
 					slidePanel(currPanel, 'left', false);
 					interval = setInterval(function() {
 						currPanel++;
-						console.log(interval);
 						// check if the new panel value is too big
 						if ( currPanel >= panels.length ) currPanel = 0;
 						slidePanel(currPanel, 'left', false);
